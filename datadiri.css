@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.o ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000; 
+}
+.o li {
+	float: left;
+}
+.o li a{
+	font-family: century gothic;
+	font-weight: bold;
+	display: block;
+	padding: 14px 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.o li a:hover {
+	background-color: #ff0000;
+} 
+
+/*buat home*/
+.posisi{
+
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	left: 0;
+	right: 0;
+	top: 100px;
+	bottom: 0;
+}
+body{
+	background-color: orange;
+}
+table,tr,td{
+	background-color: white ;
+	font-family: century gothic;
+	color: green;
+	border: 1px solid aqua;
+	padding: 5px;
+	border-collapse: collapse;
+}
+.h{
+	border: 8px dashed yellow;
+	padding: 20px;
+}
+
+/*buat info lain*/
+.info_lain table,tr,td{
+	border: 0.4px solid aqua;
+	padding: 3px;
+	border-collapse: collapse;
+
+	top: 120px;
+}
